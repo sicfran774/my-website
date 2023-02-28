@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="../css/style.css">
         <title>Francis' Projects!</title>
     </head>
 
@@ -9,13 +10,15 @@
             <h1>My projects!</h1>
         </header>
     
-        <nav>
-            <a href="../index.html">Home</a>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="links.html">My Links</a>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="projects.html">My Projects</a>
-        </nav>
+        <div class="sticky">
+            <nav>
+                <a href="../index.html">Home</a>
+                |
+                <a href="links.html">My Links</a>
+                |
+                <a href="projects.html">My Projects</a>
+            </nav>
+        </div>
 
         <hr>
 
@@ -25,9 +28,9 @@
             <table>
                 <!-- First Row -->
                 <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Links</th>
+                    <th class="name">Project Name</th>
+                    <th class="description">Description</th>
+                    <th class="link">Links</th>
                 </tr>
                 <!-- Second Row -->
                 <tr>
@@ -75,5 +78,14 @@
             </table>
         </section>
 
+        <hr>
+
+        <footer>
+            <p>
+                Website by: <span>Francis Rodriguez</span>
+                <br>
+                Written in <span>HTML</span> and <span>CSS</span>
+            </p> 
+        </footer>
     </body>
 </html>

@@ -1,0 +1,107 @@
+body{ /* Requirement-2.A */
+    background-color: rgb(39, 35, 35); /* Requirement-2.4 */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{ 
+    color: white; /* Requirement-2.3 */
+}
+
+header{
+    color: white;
+    text-align: center; /* Requirement-2.2 */
+}
+
+footer{
+    color: white;
+    text-align: right;
+}
+
+div.sticky{ /* Requirement-2.C */
+    position: sticky; /* Requirement-2.15 */
+    top: 0;
+    padding: 5px;
+    background: rgb(54, 211, 255);
+    border: 2px solid blue; /* Requirement-2.5 */
+}
+
+a:link{  /* Requirement-2.E */
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: yellow;
+}
+
+nav a{ /* Requirement-2.F */
+    padding: 25px; /* Requirement-2.6 */
+}
+
+details{ /* Requirement-2.G */
+    color: white;
+}
+
+summary{ /* Requirement-2.H */
+    font-size: 25px;
+}
+
+table, th, td { /* Requirement-2.B */
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%; /* Requirement-2.7 */
+}
+
+th, tr{
+    height: 50px; /* Requirement-2.9 */
+}
+
+th.name{
+    width: 20%; /* Requirement-2.10 */
+}
+
+th.description{
+    width: 50%
+}
+
+th.link{
+    width: 20%;
+}
+
+li.a{
+    list-style-type: disc; /* Requirement-2.8 */
+}
+
+li.b{
+    list-style-type: square;
+}
+
+span{
+    color: aqua;
+    text-shadow: 1px 1px blue;
+}
+
+.float{
+    float: left; /* Requirement-2.11 */
+}
+
+div.display{
+    display: flow-root; /* Requirement-2.12 */
+    clear: left; /* Requirement-2.13 */
+}
+
+figure{
+    height: 325px;
+    overflow: auto; /* Requirement-2.14 */
+}
+
+#ddr{ /* Requirement-2.D */
+    text-shadow: 2px 2px blue;
+    z-index: 0; /* Requirement-2.17 */
+}
